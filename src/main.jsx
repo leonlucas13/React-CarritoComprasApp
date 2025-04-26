@@ -1,0 +1,14 @@
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import { CarritoApp } from './CarritoApp'
+import { StrictMode } from 'react'
+import { BrowserRouter } from 'react-router-dom'
+
+
+createRoot(document.getElementById('root')).render(
+  <BrowserRouter>
+  <StrictMode>
+   <CarritoApp />
+  </StrictMode>
+  </BrowserRouter>
+)
